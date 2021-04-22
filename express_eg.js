@@ -8,8 +8,7 @@ app.get('/',function(req,res){
 })
 app.get('/sajin',function(req,res){
     const id =req.query.id
-
-    res.send("welcome back sajincp"+id);
+    res.send("welcome back sajincp"+id);     //it support  http://127.0.0.1:9000/sajin?id=10 thid format
 })
 
 app.get('/sajin/:id',function(req,res){
